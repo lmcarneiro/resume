@@ -3,7 +3,9 @@ Welcome to my resume repo! My name is Lucas Carneiro and I am excited to embark 
 
 # Installation
 To install this project, simply clone this repository to your local machine:
+
 `git clone https://github.com/lmcarneiro/resume.git`
+
 Then, open the 'index.html' file in your web browser to view the resume page.
 
 # Usage
