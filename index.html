@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Lucas Carneiro Resume</title>
+<title>Lucas Carneiro's Resume</title>
 <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,11 +54,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </div>
           <p>HTML/CSS</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:50%">50%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:60%">60%</div>
           </div>
           <p>Git</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:50%">50%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:75%">75%</div>
           </div>
           <br>
 
@@ -91,21 +91,24 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <h5 class="w3-opacity"><b>Personal Project</b></h5>
           <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 2019 <span class="w3-tag w3-blue w3-round">Current</span></h6>
           <p>Created a fully functional realtime desktop application to perform automatic trading of options contracts by interfacing with the Robinhood API.</p>
-          <p style="margin-left: 25px;">
-            - Utilized object oriented principles such as classes, inheritance, and abstraction to design .
-          </p>
-          <p style="margin-left: 25px;">
-            - Setup my own multipurpose linux server at home using a Raspberry Pi serving as a database for my project, a personal email server
-            and a personal web server used to host this web page.
-          </p>
-          <p style="margin-left: 25px;">
-            - Utilized security principles such as encryption, minizing attack surfaces, and .
-        </p>
+          <ul>
+            <li>
+                Utilized object oriented principles such as classes, inheritance, abstraction, logging, and design patterns including observers, singletons, 
+                mediators, templates, etc.
+            </li>
+            <li>
+                Setup my own multipurpose linux server at home using a Raspberry Pi serving as a database for my project, a personal email server
+                and a personal web server used to host this web page.
+            </li>
+            <li>
+                Utilized security principles such as encryption, minizing attack surfaces, and mitigating code-level vulnerabilities.
+            </li>
+          </ul>
           <hr>
         </div>
       </div>
 
-      <div class="w3-container w3-card w3-white">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Education</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>University of California - Berkeley</b></h5>
@@ -113,36 +116,62 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p>PhD in Physical Chemistry</p>
           <p>
             Designed and performed experiments using femtosecond, extreme ultraviolet, pulsed laser spectroscopy that investigated solid
-            state materials relevant for solar energy conversion.
+            state materials relevant for solar energy conversion. Published results in peer reviewed academic journals such as Nature,
+            Journal of Phsyical Chemistry, and Structural Dynamics
           </p>
-            <p style="margin-left: 25px;">
-                - Levaraged Python's fascile iteration to perform data cleaning and analysis on experimental results. Binned calibrated camera pixel data,
-                averaged them across time points, subtracted average noise and filtered the results using.
-            </p>
-            <p style="margin-left: 25px;">
-                - Attained proficiency in Python packages such as Pandas, Numpy, Scipy, Matplotlib, and Statsmodels.
-            </p>
-            <p style="margin-left: 25px;">
-                - Used autocad to design experimental apparatus improvements such as a novel gas jet device used to cool
+          <ul>
+            <li>
+                Levaraged Python's fascile iteration to perform data cleaning and analysis on experimental results for publication.
+            </li>
+            <li>
+                Attained proficiency in Python packages such as Pandas, Numpy, Scipy, Matplotlib, and Statsmodels.
+            </li>
+            <li>
+                Used autocad to design experimental apparatus improvements such as a novel gas jet device used to cool
                 thin film surfaces to prevent thermal breaking.
-            </p>
-            <p style="margin-left: 25px;">
-                - Collaborated with a team of interdisciplinary researchers on several successful multi-million dollar grant proposals.
-            </p>
+            </li>
+            <li>
+                Collaborated with a team of interdisciplinary researchers on several successful multi-million dollar grant proposals.
+            </li>
+          </ul>
           <hr>
         </div>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Saint Mary's College of Maryland</b></h5>
           <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2009 - 2013</h6>
           <p>Bachelor's of Chemistry and Mathematics</p>
-          <p>
-            REU at NIST for 3 summers investigating the effects of bulk heterojunction topologies on organic 
-            photovoltaic solar energy conversion performance.
-          </p>
-
+          <ul>
+            <li>
+                REU at NIST for 3 summers investigating the effects of bulk heterojunction topologies on organic 
+                photovoltaic solar energy conversion performance.
+            </li>
+          </ul>
           <br>
         </div>
       </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-leanpub fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Selected Publications</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>University of California - Berkeley</b></h5>
+          <hr>
+          <p>
+            Carneiro, L., Cushing, S., Liu, C. et al. Excitation-wavelength-dependent small polaron trapping of photoexcited 
+            carriers in α-Fe2O3. Nature Mater 16, 819–825 (2017). <a href="https://doi.org/10.1038/nmat4936">https://doi.org/10.1038/nmat4936</a>
+          </p>
+          <p>
+            Porter, I., Cushing, S., Carneiro, L., et al. Photoexcited Small Polaron Formation in Goethite (α-FeOOH) Nanorods Probed by 
+            Transient Extreme Ultraviolet Spectroscopy. The Journal of Physical Chemistry Letters 9 (14), 4120-4124 (2018). 
+            <a href="https://doi.org/10.1021/acs.jpclett.8b01525">https://doi.org/10.1021/acs.jpclett.8b01525</a>
+          </p>
+          <p>
+            Cushing, S., Zürch, M., Kraus, P., Carneiro, L., et al. Hot phonon and carrier relaxation in Si(100) determined by transient 
+            extreme ultraviolet spectroscopy. Struct Dyn 5 (5), 054302 (2018). 
+            <a href="https://doi.org/10.1063/1.5038015">https://doi.org/10.1063/1.5038015</a>
+          </p>
+        </div>
+      </div>
+
 
     <!-- End Right Column -->
     </div>
