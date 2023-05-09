@@ -18,4 +18,4 @@ This project was created by Lucas Carneiro.
 This project is licensed under the Apache License 2.0.
 
 # Contact
-If you have any questions or feedback about this project, feel free to reach out to [Your Name] at [Add your email address or social media handles].
+If you have any questions or feedback about this project, feel free to reach out at lucas@lmcserver.hopto.org.
