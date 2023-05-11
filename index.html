@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+/* img {display: block; margin: auto} */
 </style>
 </head>
 <body class="w3-light-grey">
@@ -24,8 +25,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     <div class="w3-third">
     
       <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="Images/Me.jpg" style="width:100%" alt="Avatar">
+        <div class="w3-display-container" display:flex>
+          <!-- <img src="Images/Me_2.jpeg" style="width:100%" alt="Avatar"> -->
+          <img src="Images/Me_6.jpeg" width="100%" alt="Avatar">
           <div class="w3-display-bottomleft w3-container w3-text-white">
             <h2>Lucas Carneiro</h2>
           </div>
@@ -93,18 +95,20 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p>Created a fully functional realtime desktop application to perform automatic trading of options contracts by interfacing with the Robinhood API.</p>
           <ul>
             <li>
-                Utilized object oriented principles such as classes, inheritance, abstraction, logging, and design patterns including observers, singletons, 
-                mediators, templates, etc.
+              Utilized object oriented principles such as classes, inheritance, abstraction, logging, and design patterns including observers, singletons, 
+              mediators, templates, etc.
             </li>
             <li>
-                Setup my own multipurpose linux server at home using a Raspberry Pi serving as a database for my project, a personal email server
-                and a personal web server used to host this web page.
+              Setup my own multipurpose linux server at home using a Raspberry Pi serving as a database (SQLite, PostgreSQL)
+              for my project, a personal email server (postfix, Dovecot), and a personal web server (apache2) used to host this web page.
             </li>
             <li>
-                Utilized security principles such as encryption, minizing attack surfaces, and mitigating code-level vulnerabilities.
+              Utilized security principles such as encryption, minizing attack surfaces, and mitigating code-level vulnerabilities.
+            </li>
+            <li>
+              Packaged the application using meson and ninja.
             </li>
           </ul>
-          <hr>
         </div>
       </div>
 
@@ -117,21 +121,21 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p>
             Designed and performed experiments using femtosecond, extreme ultraviolet, pulsed laser spectroscopy that investigated solid
             state materials relevant for solar energy conversion. Published results in peer reviewed academic journals such as Nature,
-            Journal of Phsyical Chemistry, and Structural Dynamics.
+            Journal of Physical Chemistry, and Structural Dynamics.
           </p>
           <ul>
             <li>
-                Levaraged Python's fascile iteration to perform data cleaning and analysis on experimental results for publication.
+              Leveraged Python's fascile iteration to perform data cleaning and analysis on experimental results for publication.
             </li>
             <li>
-                Attained proficiency in Python packages such as Pandas, Numpy, Scipy, Matplotlib, and Statsmodels.
+              Attained proficiency in Python packages such as Pandas, Numpy, Scipy, Matplotlib, and Statsmodels.
             </li>
             <li>
-                Used autocad to design experimental apparatus improvements such as a novel gas jet device used to cool
-                thin film surfaces to prevent thermal breaking.
+              Used autocad to design experimental apparatus improvements such as a novel gas jet device used to cool
+              thin film surfaces to prevent thermal breaking.
             </li>
             <li>
-                Collaborated with a team of interdisciplinary researchers on several successful multi-million dollar grant proposals.
+              Collaborated with a team of interdisciplinary researchers on several successful multi-million dollar grant proposals.
             </li>
           </ul>
           <hr>
@@ -142,8 +146,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p>Bachelor's of Chemistry and Mathematics</p>
           <ul>
             <li>
-                REU at NIST for 3 summers investigating the effects of bulk heterojunction topologies on organic 
-                photovoltaic solar energy conversion performance.
+              REU at NIST for 3 summers investigating the effects of bulk heterojunction topologies on organic 
+              photovoltaic solar energy conversion performance.
             </li>
           </ul>
           <br>
@@ -154,7 +158,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-leanpub fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Selected Publications</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>University of California - Berkeley</b></h5>
-          <hr>
           <p>
             Carneiro, L., Cushing, S., Liu, C. et al. Excitation-wavelength-dependent small polaron trapping of photoexcited 
             carriers in α-Fe2O3. Nature Mater 16, 819–825 (2017). <a href="https://doi.org/10.1038/nmat4936">https://doi.org/10.1038/nmat4936</a>
@@ -183,10 +186,11 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </div>
 
 <footer class="w3-container w3-blue w3-center w3-margin-top">
-    <p>Find me on social media.</p>
+    <p>Find me on social media</p>
     <a href="https://facebook.com/lcarneiro7" class="fa fa-facebook-official w3-hover-opacity"></a>
     <a href="https://www.linkedin.com/in/lucas-carneiro-36982185/" class="fa fa-linkedin w3-hover-opacity"></a>
-    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    <a href="https://github.com/lmcarneiro" class="fa fa-github w3-hover-opacity"></a>
+    <p></p>
   </footer>
 
 </body>
