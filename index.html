@@ -7,9 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+a.fa-brands{text-decoration: none}
 /* img {display: block; margin: auto} */
 </style>
 </head>
@@ -46,8 +47,8 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </div>
           <p>GTK</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
+            <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:90%">
+              <div class="w3-center w3-text-white">90%</div>
             </div>
           </div>
           <p>SQL</p>
@@ -92,21 +93,26 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <h5 class="w3-opacity"><b>Personal Project</b></h5>
           <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i> 2019 <span class="w3-tag w3-blue w3-round">Current</span></h6>
-          <p>Created a fully functional realtime desktop application to perform automatic trading of options contracts by interfacing with the Robinhood API.</p>
+          <p>
+            Created a fully functional realtime desktop application to perform backtesting and automatic trading of options contracts by interfacing with the Robinhood API.
+            
+          </p>
           <ul>
             <li>
               Utilized object oriented principles such as classes, inheritance, abstraction, logging, and design patterns including observers, singletons, 
-              mediators, templates, etc.
+              mediators, and templates to make the code more modular, extensible and easier to maintain.
             </li>
             <li>
               Setup my own multipurpose linux server at home using a Raspberry Pi serving as a database (SQLite, PostgreSQL)
-              for my project, a personal email server (postfix, Dovecot), and a personal web server (apache2) used to host this web page.
+              to store application information such as user accounts, securities data, and trades performed, a personal email server (postfix, Dovecot), 
+              and a personal web server (apache2) used to host this web page.
             </li>
             <li>
-              Utilized security principles such as encryption, minizing attack surfaces, and mitigating code-level vulnerabilities.
+              Utilized security principles such as encryption and hashing of sensitive data, server hardening (SSL/TLS, firewall, fail2ban), and mitigating code-level 
+              vulnerabilities (no hard-coded credentials, input validation).
             </li>
             <li>
-              Packaged the application using meson and ninja.
+              Incorporated the build automation tool Meson to make sure the application would be usable cross-platform. 
             </li>
           </ul>
         </div>
@@ -120,22 +126,20 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           <p>PhD in Physical Chemistry</p>
           <p>
             Designed and performed experiments using femtosecond, extreme ultraviolet, pulsed laser spectroscopy that investigated solid
-            state materials relevant for solar energy conversion. Published results in peer reviewed academic journals such as Nature,
+            state materials relevant for solar energy conversion. Leveraged Python in order to analyze and publish results in peer reviewed academic journals such as Nature,
             Journal of Physical Chemistry, and Structural Dynamics.
           </p>
           <ul>
             <li>
-              Leveraged Python's fascile iteration to perform data cleaning and analysis on experimental results for publication.
-            </li>
-            <li>
-              Attained proficiency in Python packages such as Pandas, Numpy, Scipy, Matplotlib, and Statsmodels.
+              Attained proficiency in Python packages such as Pandas, Numpy, Scipy, Matplotlib, and Statsmodels by performing data cleaning,
+              analysis, modeling and plotting.
             </li>
             <li>
               Used autocad to design experimental apparatus improvements such as a novel gas jet device used to cool
               thin film surfaces to prevent thermal breaking.
             </li>
             <li>
-              Collaborated with a team of interdisciplinary researchers on several successful multi-million dollar grant proposals.
+              Collaborated with a team of interdisciplinary researchers on several successful multi-million dollar DOE grant proposals.
             </li>
           </ul>
           <hr>
@@ -155,7 +159,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
       </div>
 
       <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-leanpub fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Selected Publications</h2>
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-book-open fa-fw w3-margin-right w3-xxlarge w3-text-blue"></i>Selected Publications</h2>
         <div class="w3-container">
           <h5 class="w3-opacity"><b>University of California - Berkeley</b></h5>
           <p>
@@ -187,9 +191,9 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
 <footer class="w3-container w3-blue w3-center w3-margin-top">
     <p>Find me on social media</p>
-    <a href="https://facebook.com/lcarneiro7" class="fa fa-facebook-official w3-hover-opacity"></a>
-    <a href="https://www.linkedin.com/in/lucas-carneiro-36982185/" class="fa fa-linkedin w3-hover-opacity"></a>
-    <a href="https://github.com/lmcarneiro" class="fa fa-github w3-hover-opacity"></a>
+    <a href="https://facebook.com/lcarneiro7" class="fa-brands fa-facebook w3-hover-opacity"></a>
+    <a href="https://www.linkedin.com/in/lucas-carneiro-36982185/" class="fa-brands fa-linkedin w3-hover-opacity"></a>
+    <a href="https://github.com/lmcarneiro" class="fa-brands fa-github w3-hover-opacity"></a>
     <p></p>
   </footer>
 
